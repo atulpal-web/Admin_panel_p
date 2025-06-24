@@ -1,0 +1,17 @@
+{
+  "name": "admin-panel-folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd Server && npm start",
+    "admin":"cd Admin_Panel && npm start",
+    "dev":"concurrently \"npm run server\" \"npm run admin\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
